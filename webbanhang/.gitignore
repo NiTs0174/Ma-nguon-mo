@@ -1,0 +1,59 @@
+# Cấu hình cho các hệ điều hành
+# Hệ điều hành Windows
+Thumbs.db
+ehthumbs.db
+
+# Hệ điều hành macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Hệ điều hành Linux
+*~
+
+# Thư mục và tệp của Composer
+/vendor/
+/composer.phar
+
+# Thư mục lưu trữ dữ liệu tạm thời
+/tmp/
+/logs/
+*.log
+
+# Cấu hình IDE và môi trường phát triển
+/.idea/
+/.vscode/
+/*.sublime-project
+/*.sublime-workspace
+
+# Các tệp cấu hình của PHP
+phpunit.xml
+phpunit.xml.dist
+
+# Thư mục chứa file cache của hệ thống
+/cache/
+
+# Cấu hình cơ sở dữ liệu
+/database/*.sql
+/database/*.sql.gz
+
+# Thư mục chứa các file tạm thời khi chạy các công cụ build
+/public/assets/
+public/css/
+public/js/
+public/img/
+
+# Các tệp thông tin xác thực (API keys, password, etc.)
+.env
+.env.local
+.env.*.local
+
+# Các file backup
+*~
+*.bak
+*.swp
+*.swo
+
+# Các file log, cache
+*.log
+*.cache
